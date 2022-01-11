@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Food</title>
+    <style>
+        .small {
+            width: 200px;
+            height: 200px;
+        }
+
+        .food {
+            border: 3px dotted red;
+            width: 130px;
+            margin-right: 15px;
+        }
+
+        button {
+            background-color: yellow;
+        }
+
+        button:hover {
+            background-color: turquoise;
+            color: white;
+            transition-duration: 3s;
+        }
+
+        .menu {
+            display: flex;
+        }
+
+        .food img {
+            width: 95%;
+        }
+
+        @media (max-width:900px) {
+            .food {
+                background-color: springgreen;
+            }
+
+            @media (min-width:200px) {
+                .food {
+                    background-color: tomato;
+                }
+
+            }
+        }
+
+        .colour {
+            color: wheat;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <div class="food"><img class="small" src="image/food.jpg" alt="">
+            <h2 class="colour">price:100$</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatum alias rem ab expedita minus
+            distinctio culpa vel at quasi?<br>
+            <button>Order now</button>
+        </div>
+        <div class="food"><img class="small" src="image/food.jpg" alt="">
+            <h2 class="colour">price:100$</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatum alias rem ab expedita minus
+            distinctio culpa vel at quasi?<br>
+            <button>Order now</button>
+        </div>
+        <div class="food"><img class="small" src="image/food.jpg" alt="">
+            <h2 class="colour">price:100$</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatum alias rem ab expedita minus
+            distinctio culpa vel at quasi?<br>
+            <button>Order now</button>
+        </div>
+        <div class="food"><img class="small" src="image/food.jpg" alt="">
+            <h2 class="colour">price:100$</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatum alias rem ab expedita minus
+            distinctio culpa vel at quasi?<br>
+            <button>Order now</button>
+        </div>
+        <div class="food"><img class="small" src="image/food.jpg" alt="">
+            <h2 class="colour">price:100$</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatum alias rem ab expedita minus
+            distinctio culpa vel at quasi?<br>
+            <button>Order now</button>
+        </div>
+    </div>
+</body>
+
+</html>
